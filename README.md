@@ -19,28 +19,7 @@
 - HTTPs
 - Tree Shaking - remove unused Code
 - Different dev and production bundles
-
-# Food Odering APP
-/**
- * Header
- *  - Logo
- *  - Nav Items
- * Body
- *  - Search
- *  - Restaruant Container
- *      - Restaurant Card
- *          - Cards 
- *          - Images
- *          - Res Name
- *          - Star Rating
- *          - Cuisine
- *          - Price
- *          - Delivery Time
- * Footer
- *  - Copyright
- *  - Links
- * - Contact
- */
+  
 
 # Two types of Export/Import
 
@@ -57,3 +36,9 @@ import {component} from "path";
 - Normal JS utility function
 - useState() - SuperPowerful State Variables in react
 - useEffect()
+
+What is reconciliation?
+reconciliation
+The algorithm React uses to diff one tree with another to determine which parts need to be changed.
+update
+A change in the data used to render a React app. Usually the result of `setState`. Eventually results in a re-render.
